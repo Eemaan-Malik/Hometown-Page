@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#main {
+  background-image: url("hometown.PNG");
+  background-size: cover;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.h1 {
+  color: white;
+  background: #1b7383;
+  padding: 5px 10px 5px 10px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.p {
+  color: white;
+  background: #181846;
+  width: 400px;
+  margin: 0px auto;
+  padding: 5px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+
+.h2 {
+  border: 1px solid beige;
+  background: beige;
+  padding: 30px;
+  margin: 0px auto;
+  color: #181846;
+}
+
+#activities {
+  display: flex;
+  justify-content: space-around;
+  background: beige;
+  border: 1px solid beige;
+}
+
+.img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.heading {
+  color: #181846;
+  width: 300px;
+}
+
+.paragraph {
+  color: #181846;
+  width: 300px;
+}
+
+#card {
+  width: 500px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px auto;
+  border: 1px solid #ddebf8;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  color: #181846;
+  background: #a8dbdb;
+}
+
+#card-para {
+  font-style: italic;
+  width: 200px;
+}
+
+#head{
+  margin: auto 0px;
+}
